@@ -1,0 +1,46 @@
+[
+    {
+        "class": "sidebar_label",
+        "color": [10, 10, 10],
+        "font.bold": false,
+        "font.size": 16
+    },
+    {
+        "class": "tab_label",
+        "font.size": 17,
+        "font.face": "Ubuntu",
+        "fg": [255, 255, 255, 235]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "fg": [130, 200, 10]
+    },
+    {
+        "class": "tabset_control",
+        "tab_height": 35,
+        "tab_width": 160,
+        "tab_min_width": 48,
+        "content_margin": [8, -1, 8, 0]
+    },
+    {
+        "class": "tab_control",
+        "layer1.opacity": 0.45,
+        "tint_modifier": [0, 0, 0, 0],
+        "content_margin": [22, 8, 22, 8],
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "layer1.opacity": 1,
+        "tint_modifier": [255, 255, 255, 0.0],
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [10,10,10],
+        "font.size": 16,
+        "font.face": "Ubuntu",
+        "content_margin": [8, 5, 8, 5],
+    }
+]
